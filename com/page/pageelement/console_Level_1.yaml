@@ -1,0 +1,27 @@
+Level_1:
+  desc: 登陆后的第一级页面
+  locators: 
+    -
+      name: 点击账户信息
+      by: xpath
+      value: .//*[@id='mainWrapper']/header/nav/div/ul/li[2]/a
+      
+    -
+      name: 账户信息_退出
+      by: xpath
+      value: .//*[@id='mainWrapper']/header/nav/div/ul/li[2]/ul/li[3]/div/div
+      
+    -
+      name: 账户信息_退出_确定
+      by: xpath
+      value: /html/body/div[4]/div[2]/div/div/div/div/div[4]/button[1]
+      
+
+      
+
+  #desc: 百度钱包收银台,第三级界面
+  #locators: 
+    #-
+      #name: VIP_开通_收银台
+      #by: id
+      #value: com.baidu.yuedu:id/title_tv

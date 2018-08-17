@@ -1,0 +1,21 @@
+Level_2:
+  desc: 登录页
+  locators: 
+    -
+      name: 账号
+      by: id
+      value: username
+    
+    -
+      name: 密码
+      by: id
+      value: password
+      
+    -
+      name: 登录按钮
+      by: xpath
+      value: //button[@type='submit']
+
+
+      
+      
